@@ -1,15 +1,25 @@
-const clearIcon = document.querySelector(".clear-icon");
-const searchBar = document.querySelector(".search");
+var counter = 1;
+setInterval(function() {
+    document.getElementById('radio' + counter).checked = true;
+    counter++;
+    if (counter > 4) {
+        counter = 1;
+    }
+}, 5000);
 
-searchBar.addEventListener("keyup", () => {
-  if(searchBar.value && clearIcon.style.visibility != "visible"){
-    clearIcon.style.visibility = "visible";
-  } else if(!searchBar.value) {
-    clearIcon.style.visibility = "hidden";
-  }
-});
+function likeunlike(element)
+{
+	if (element.style.color ="#C8FAFF")
+	{
+		element.style.color="#EF3636";
+		element.style.transition="0.2s";
+		element.style.fontSize="28px";
+    }
+	else if(element.style.color ="#EF3636")
+	{
+		element.style.color="#C8FAFF";
+		element.style.transition="0.2s";
+		element.style.fontSize="25px";
+	}
+}
 
-clearIcon.addEventListener("click", () => {
-  searchBar.value = "";
-  clearIcon.style.visibility = "hidden";
-})
