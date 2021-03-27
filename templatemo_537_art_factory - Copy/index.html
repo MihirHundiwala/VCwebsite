@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Template Mo">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/templatemo-art-factory.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>Art Factory HTML CSS Template</title>
+
+</head>
+
+<body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+    <!---------------------------------------- Navbar ---------------------------------------->
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+
+        <a class="navbar-brand" href="#">Navbar</a>
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapse_target">
+            <div class="dropdown-divider"></div>
+            <ul class="navbar-nav mr-auto" id="nav_contents">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Stories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Facts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Book Now</a>
+                </li>
+            </ul>
+            <div class="dropdown-divider"></div>
+            <ul class="navbar-nav" id="logins">
+                <li class="nav-item">
+                    <button class="btn signin_btn" data-toggle="modal" data-target="#signinmodal" type="button">Sign
+                        In</button>
+                </li>
+                <li class="nav-item">
+                    <div data-toggle="modal" data-target="#signupmodal"><a class="signup_btn"><span>Sign Up</a></div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!---------------------------------------- Sign In Modal ---------------------------------------->
+    <div class="modal fade" id="signinmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <form class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Sign In</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <label for="email"><b>Email</b></label>
+                    <input class="modalinputs" type="text" placeholder="Enter Email" name="email" required>
+                    <label for="psw"><b>Password</b></label>
+                    <input class="modalinputs" type="password" placeholder="Enter Password" name="psw" required>
+                </div>
+                <div class="modal-footer">
+                    <span>Don't have an Account?</span><button type="button" class="btn" data-dismiss="modal" data-toggle="modal" id="signmodalfooter" data-target="#signupmodal">Sign Up</button>
+                    <button type="submit" class="btn btn-success">Sign In</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!---------------------------------------- Sign Up Modal ---------------------------------------->
+    <div class="modal fade" id="signupmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <form class="modal-content" action="profile.html">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Sign Up</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <label for="email"><b>Email</b></label>
+                    <input class="modalinputs form-control" type="text" placeholder="Enter Email" name="email" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input class="modalinputs" type="password" placeholder="Enter Password" name="psw" required>
+
+                    <label for="psw-repeat"><b>Repeat Password</b></label>
+                    <input class="modalinputs" type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                </div>
+
+                <div class="modal-footer">
+                    <span>Already have an Account?</span>
+                    <button type="button" class="btn" data-dismiss="modal" data-toggle="modal" id="signmodalfooter" data-target="#signinmodal">Sign In</button>
+                    <button type="submit" class="btn btn-success">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!---------------------------------------- Image Slider ---------------------------------------->
+
+    <div class="slider">
+        <div class="slides">
+            <!--radio buttons start-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+            <div class="slide first">
+                <img src="images/img1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/img2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/img3.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/img4.jpg" alt="">
+            </div>
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+
+        </div>
+
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    </div>
+
+    <section class="section" id="about-us">
+
+        <header class="about-title">
+            <h2>About Us</h2>
+            <p>Lorem ipsum Esse esse cillum nisi cillum deserunt tempor ut pariatur qui officia. Lorem ipsum Magna eu irure sint <strong>occaecat</strong> cupidatat dolore minim irure cillum.</p>
+        </header>
+
+        <div class="container">
+
+        </div>
+
+    </section>
+
+    <!-- ***** Welcome Area Start ***** -->
+    <div class="welcome-area" id="welcome">
+
+        <!-- ***** Header Text Start ***** -->
+        <div class="header-text">
+            <div class="container">
+                <div class="row">
+                    <div class="left-text col-lg-6 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                        <h1>Art Factory is free <strong>for YOU</strong></h1>
+                        <p>This template is available for 100% free of charge on TemplateMo. Download, modify and use this for your business website.</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                        <img src="images/slider-icon.png" class="rounded img-fluid d-block mx-auto" alt="First Vector Graphic">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ***** Header Text End ***** -->
+    </div>
+    <!-- ***** Welcome Area End ***** -->
+
+
+    <!---------------------------------------- Stories ---------------------------------------->
+    <section class="section" id="stories">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-12 col-sm-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <img src="images/stories.jpg" class="rounded img-fluid d-block mx-auto" alt="App">
+                </div>
+                <div class="right-text col-lg-5 col-md-12 col-sm-12 mobile-top-fix">
+                    <div class="left-heading">
+                        <h5>Share your Stories with us...</h5>
+                    </div>
+                    <div class="left-text">
+                        <p>This template is <a href="#">last updated on 20 August 2019 </a>for main menu drop-down arrow and sub menu text color. Duis auctor dolor eu scelerisque vestibulum. Vestibulum lacinia, nisl sit amet tristique condimentum. <br><br>                            Sed a consequat velit. Morbi lectus sapien, vestibulum et sapien sit amet, ultrices malesuada odio. Donec non quam euismod, mattis dui a, ultrices nisi.</p>
+                        <a href="stories.html" class="main-button">Discover More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hr"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Big Item End ***** -->
+
+
+    <!-- ***** Features Big Item Start ***** -->
+    <section class="section" id="about2">
+        <div class="container">
+            <div class="row">
+                <div class="left-text col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix">
+                    <div class="left-heading">
+                        <h5>Facts</h5>
+                    </div>
+                    <p>Proin justo sapien, posuere suscipit tortor in, fermentum mattis elit. Aenean in feugiat purus.
+                    </p>
+                    <ul>
+                        <li>
+                            <img src="images/about-icon-01.png" alt="">
+                            <div class="text">
+                                <h6>Nulla ultricies risus quis risus</h6>
+                                <p>You can use this website template for commercial or non-commercial purposes.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/about-icon-02.png" alt="">
+                            <div class="text">
+                                <h6>Donec consequat commodo purus</h6>
+                                <p>You have no right to re-distribute this template as a downloadable ZIP file on any website.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/about-icon-03.png" alt="">
+                            <div class="text">
+                                <h6>Sed placerat sollicitudin mauris</h6>
+                                <p>If you have any question or comment, please <a rel="nofollow" href="https://templatemo.com/contact">contact</a> us on TemplateMo.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right-image col-lg-7 col-md-12 col-sm-12 mobile-bottom-fix-big" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                    <img src="images/right-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Big Item End ***** -->
+    <hr>
+    <!---------------------------------------- Stories ---------------------------------------->
+    <section class="section" id="therapy">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-12 col-sm-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <img src="images/therapy.png" class="rounded img-fluid d-block mx-auto" alt="App">
+                </div>
+                <div class="right-text col-lg-5 col-md-12 col-sm-12 mobile-top-fix">
+                    <div class="left-heading">
+                        <h5>Connect with the Best Online Psychologist and Counsellor...</h5>
+                    </div>
+                    <div class="left-text">
+                        <p>Looking for Free Online Counselling and Therapy ? Ready to seek the help of a mental health professional and you aren't sure how to get started? Many of us Consider free online counselling and therapy as an option.</p>
+                        <a href="stories.html" class="main-button">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hr"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Site footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers
+                        build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Categories</h6>
+                    <ul class="footer-links">
+                        <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+                        <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
+                        <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+                        <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
+                        <li><a href="http://scanfcode.com/category/android/">Android</a></li>
+                        <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Stories</a></li>
+                        <li><a href="#">Facts</a></li>
+                        <li><a href="#">Therapy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
+                        <a href="#">T-Space</a>
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="dribbble" href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="js/owl-carousel.js"></script>
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imgfix.min.js"></script>
+
+    <!-- Global Init -->
+    <script src="js/custom.js"></script>
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
