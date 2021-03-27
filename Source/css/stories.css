@@ -111,6 +111,12 @@ body{
     margin-left:13.5%;
 }
 
+.tablediv{
+	width:100%;
+	height:90%;
+	border-radius: 30px;
+}
+
 .actualtable{
 	color:white;
 	width:100%;
@@ -119,15 +125,28 @@ body{
 	border-collapse: separate;
 }
 
+.profiledata{
+    width:20%;
+}
+
+.storydata,.profiledata{
+	background:rgba(0,0,0,0.45);
+	/*border: solid black 2px;*/
+	text-align:center;
+	color:white;
+    /*height:250px;*/
+    position:relative;
+}
+
 th{
-    background:rgba(0,0,0,0.45);
-    text-align:left;
-    padding-left: 1%;
-    font-weight: normal;
-    font-size: 30px;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    text-shadow: 0 0 5px #C8FAFF;
-    /*font-style: italic;*/
+	background:rgba(0,0,0,0.45);
+	text-align:left;
+	padding-left: 1%;
+	font-weight: normal;
+	font-size: 30px;
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+	text-shadow: 0 0 5px #C8FAFF;
+	/*font-style: italic;*/
 }
 
 @-webkit-keyframes glow {
@@ -140,61 +159,45 @@ th{
 }
 
 td:hover{
-    background-color:rgba(0,0,0,0.75);
+	background-color:rgba(0,0,0,0.75);
 }
 
 tbody tr
 {
-    height:50vh;
-}
-
-.profiledata{
-    width:20%;
-}
-
-.storydata,.profiledata{
-	background:rgba(0,0,0,0.45);
-	/*border: solid black 2px;*/
-	text-align:center;
-	color:white;
-    position: relative;
-    /*height:250px;*/
-}
-
-.storydata{
-    
+    height:20vh;
 }
 
 .storytext p:hover, i:hover{
 	cursor:pointer;
-}
 
-.storytext{
-    position:absolute;
-    width:100%;
-    top:0;
-    left:0;
 }
-
 .commenticon{
     position: absolute;
     width:5%;
     height:5%;
-
-   bottom:3%;
-   right:7%;
+    margin-left:85%;
+    margin-top:-3%;
+   /* display:inline-block;*/
+   float:left;
 }
 
 .likeicon{
     position: absolute;
     width:5%;
     height:5%;
-    margin-top:5%;
-/*    bottom:3%;*/
-    right:1%;
+    margin-left:91%;
+      margin-top:-3%;
+    /*display:inline-block;*/
+    float:left;
+}
+
+.storytext{
+	height:70%;
+ /*   position: absolute;*/
 }
 
 p{
+    /*position:absolute;*/
     margin-left:10%;
     margin-right:20%;
     margin-top: 2%;
