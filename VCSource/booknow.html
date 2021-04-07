@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+ 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/stories.css">
+
+    <script src="https://kit.fontawesome.com/b363a0111f.js" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <title>Meeting</title>
+
+    <!-- --------booknow----------->
+    <link rel="stylesheet" type="text/css" href="./css/booknowstyle.css">
+    <script src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
+    <script type="text/javascript" src="../js/booknowscript.js"></script>
+    <!-- -------------------------->
+</head>
+
+<body>
+
+    <!---------------------------------------- Navbar ---------------------------------------->
+    <nav class="navbar navbar-expand-md fixed-top">
+
+        <a class="navbar-brand" href="#">Navbar</a>
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapse_target">
+            <div class="dropdown-divider"></div>
+            <ul class="navbar-nav mr-auto" id="nav_contents">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Stories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Facts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Book Now</a>
+                </li>
+            </ul>
+            <div class="dropdown-divider"></div>
+            <ul class="navbar-nav" id="logins">
+                <li class="nav-item">
+                    <button class="btn signin_btn" data-toggle="modal" data-target="#signinmodal" type="button">Sign In</button>
+                </li>
+                <li class="nav-item">
+                    <div data-toggle="modal" data-target="#signupmodal"><a class="signup_btn"><span>Sign Up</a></div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-----------------------------booknow-------------------------------------------------------------->
+
+      
+    <div id="main">
+        <div class='v-con' id="remotevcon">
+            <div class="hovertitle" >Ongoing meet with <name>nickname</name></div>
+            <video id="remoteVideo" autoplay></video>
+            <div class='remote-mem-name'>__nickname__</div>
+        </div>
+
+        <button class='micvideo' id='mic' onclick="mictoggle()"><i id="micicon" class="fas fa-microphone"></i></button>
+        <button class='micvideo' id='video' onclick="videotoggle()"><i id="videoicon" class="fas fa-video"></i></button>
+
+        <div class='v-con' id="localvcon">
+            <video id="localVideo" autoplay muted></video>
+            <div class='local-mem-name'>__You__</div>
+        </div>
+
+       <!--  <div style="font-style: italic; margin-top:2%; padding-left:2%">
+            Ongoing Appointment with __therapist__
+        </div> -->
+
+
+    </div>
+
+      
+      <script src="script.js"></script>
+
+    <!-------------------------------------------------------------------------------------------------->
+
+
+
+    <script src="js/script.js"></script>
+
+    <!---------booknow---------- -->
+    <script src="js/booknowscript.js"></script>
+    <!-------------------------- -->
+
+</body>
+
+</html>
