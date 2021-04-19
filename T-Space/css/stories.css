@@ -1,0 +1,172 @@
+.navbar {
+    background-image: linear-gradient(145deg, #00b4c6 30%, #C8FAFF 115%);
+}
+
+.content {
+    margin: 150px;
+    margin-top: 50px;
+}
+
+thead {
+    background-image: linear-gradient(145deg, #00b4c6 30%, #C8FAFF 115%);
+}
+
+.tablediv {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.actualtable {
+    color: white;
+    width: 100%;
+    height: 100%;
+    border-collapse: separate;
+}
+
+.profiledata {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 20px;
+    width: 180px;
+}
+
+.storydata {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    /*height:250px;*/
+    position: relative;
+    padding: 5px;
+    padding-bottom: 30px;
+}
+
+td {
+    border-bottom: solid #00b5c648 1px;
+}
+
+#tablebody>tr:hover {
+    box-shadow: 0 0 10px #00C3D6;
+}
+
+th {
+    text-align: left;
+    padding: 15px !important;
+    padding-left: 25px !important;
+    font-weight: normal;
+    font-size: 30px;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    cursor: pointer;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 0px, 0 0 5px #C8FAFF, 0 0 15px #C8FAFF;
+    }
+    to {
+        text-shadow: 0 0 10px, 0 0 10px #ffffff, 0 0 25px #ffffff;
+    }
+}
+
+.storytext p:hover,
+i:hover {
+    cursor: pointer;
+}
+
+.storytext {
+    height: 70%;
+    padding: 15px;
+    padding-bottom: 0
+}
+
+@import "http://fonts.googleapis.com/css?family=Roboto:300,400,500,700";
+.panel {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    border-radius: 0 !important;
+    overflow: hidden;
+    height: auto;
+    margin-left: 85%;
+    margin-bottom: -15px;
+}
+
+.panel i.glyphicon {
+    display: inline;
+    font-size: 2px;
+    cursor: pointer;
+}
+
+.panel i {
+    padding-left: 10px;
+    font-size: larger;
+}
+
+.panel i.fa-thumbs-up {
+    color: #1abc9c;
+}
+
+.panel i.fa-thumbs-down {
+    color: #e74c3c;
+}
+
+.panel i.fa-comment {
+    color: #11bee9;
+}
+
+.panel div {
+    display: inline;
+    font: 300 normal 1.125em "Roboto", Arial, Verdana, sans-serif;
+    text-align: center;
+    background-color: transparent !important;
+    border: none !important;
+}
+
+#yourstory-con {
+    margin: 150px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    position: relative;
+    background-color: #FaFaFa;
+    padding: 10px;
+    /*width:81%;*/
+    height: auto;
+    box-shadow: 0 0 2px;
+}
+
+#addyourstoryicon {
+    box-shadow: 0 0 3px;
+    margin-left: 2%;
+    margin: 1px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 0.8em;
+}
+
+.fa-user-plus {
+    font-size: 40px;
+    color: #00b4c6;
+}
+
+#addyourstorylabel {
+    position: absolute;
+    padding-top: 1.5%;
+    padding-left: 1.5%;
+    font-size: 20px;
+    display: inline-block;
+}
+
+#addyourstorydiv {
+    display: none;
+    /*display:none;*/
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.form-control {
+    margin-top: 2%;
+    box-shadow: inset 0 0 3px;
+}

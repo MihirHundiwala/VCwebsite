@@ -1,0 +1,227 @@
+html,
+body {
+    width: 100%;
+    display: inline;
+}
+
+.profiledata {
+    background-color: #F6F6F6;
+    width: 20%;
+    height: 40%;
+    margin-left: 5%;
+    margin-top: 8%;
+    box-shadow: 0 0 5px;
+    padding: 2%;
+    float: left;
+}
+
+.profileicon {
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0 0 5px;
+}
+
+.profilepic {
+    width: 50%;
+    height: 80%;
+    margin: 0 auto;
+    padding-top: 15%;
+    padding-left: 1.5%;
+}
+
+.fa-user {
+    font-size: 6vw;
+}
+
+.profilenick {
+    box-shadow: 0 0 3px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.container2 {
+    width: 60%;
+    height: auto;
+    margin-top: 8%;
+    margin-left: 30%;
+}
+
+.tablediv {
+    width: 100%;
+    height: 90%;
+}
+
+td {
+    height: 70vh;
+}
+
+.actualtable {
+    color: black;
+    width: 100%;
+    height: 100%;
+    border-spacing: 5px;
+    border-collapse: separate;
+    background-color: #F6F6F6;
+    box-shadow: 0 0 5px;
+}
+
+.storydata {
+    text-align: center;
+    color: black;
+    position: relative;
+}
+
+table {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+th {
+    text-align: left;
+    padding-left: 0.5%;
+    padding-bottom: 0.5%;
+    font-weight: normal;
+    font-size: 35px;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    color: #00b4c6;
+    border-bottom: 1px solid black;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 0px;
+        /*0 0 10px #C8FAFF; 0 0 15px #C8FAFF;*/
+    }
+    to {
+        text-shadow: 0 0 4px;
+        /*0 0 20px #C8FAFF; 0 0 25px #C8FAFF;*/
+    }
+}
+
+.storytext p:hover,
+i:hover {
+    cursor: pointer;
+}
+
+.commenticon {
+    position: absolute;
+    width: 5%;
+    height: 5%;
+    margin-left: 85%;
+    margin-top: -3%;
+    /* display:inline-block;*/
+    float: left;
+}
+
+.likeicon {
+    position: absolute;
+    width: 5%;
+    height: 5%;
+    margin-left: 91%;
+    margin-top: -3%;
+    /*display:inline-block;*/
+    float: left;
+}
+
+.storytext {
+    height: 70%;
+    /*   position: absolute;*/
+}
+
+p {
+    /*position:absolute;*/
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-top: 2%;
+}
+
+i {
+    font-size: 25px;
+    color: black;
+    /*border:1px black solid;*/
+}
+
+.prevcomments-box {
+    width: 100%;
+    /*height: auto;*/
+    box-shadow: 0 0 5px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#comtitle {
+    padding-top: 2%;
+    padding-left: 4%;
+}
+
+.eachcomment {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: inset 0 0 5px;
+    position: relative;
+}
+
+.eachcomment #part1 {
+    padding-left: 1%;
+}
+
+.eachcomment #part2 {
+    font-style: italic;
+    padding-bottom: 5%;
+}
+
+.comment-box-con {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 3%;
+    padding-bottom: 30px;
+}
+
+#comment {
+    background-color: #F6F6F6;
+    /*box-shadow: 0 0 5px;*/
+    color: black;
+}
+
+.panel {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    border-radius: 0 !important;
+    overflow: hidden;
+    height: auto;
+    margin-left: 85%;
+    margin-top: 8%;
+}
+
+.panel i.glyphicon {
+    display: inline;
+    font-size: 2px;
+    cursor: pointer;
+}
+
+.panel i {
+    padding-left: 10px;
+    font-size: larger;
+}
+
+.panel i.fa-thumbs-up {
+    color: #1abc9c;
+}
+
+.panel i.fa-thumbs-down {
+    color: #e74c3c;
+}
+
+.panel div {
+    display: inline;
+    font: 300 normal 1.125em "Roboto", Arial, Verdana, sans-serif;
+    text-align: center;
+    background-color: transparent !important;
+    border: none !important;
+}

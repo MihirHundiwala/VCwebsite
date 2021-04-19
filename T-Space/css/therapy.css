@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+.navbar {
+    background-image: linear-gradient(145deg, #00b4c6 30%, #C8FAFF 115%);
+}
+
+.site-footer {
+    height: 0;
+}
+
+body {
+    background: white;
+    display: flex;
+    font-family: 'open sans'sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+video {
+    box-sizing: border-box;
+    padding: 0%;
+    width: 100%;
+    height: auto;
+}
+
+#main {
+    background: white;
+    width: 80%;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+}
+
+#remotevcon {
+    width: 66.25%;
+    height: 93.5%;
+    margin-top: 2.5%;
+    position: absolute;
+    border: 2px solid black;
+    margin-left: 15%;
+}
+
+.hovertitle {
+    display: none;
+    height: 30px;
+}
+
+#remotevcon:hover .hovertitle {
+    display: block;
+    position: absolute;
+    color: white;
+    width: 100%;
+    padding-left: 2%;
+    background-image: linear-gradient(145deg, #00b4c6 30%, #C8FAFF 115%);
+}
+
+#localvcon {
+    background: white;
+    width: 13.4%;
+    height: 19%;
+    right: 18.8%;
+    bottom: 2%;
+    position: absolute;
+    border: 2px solid black;
+}
+
+.local-mem-name,
+.remote-mem-name {
+    padding-left: 8%;
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 1.1vw;
+}
+
+.remote-mem-name {
+    padding-left: 1%;
+    bottom: 1%;
+    font-size: 1.2vw;
+}
+
+#mic {
+    margin-left: 46%;
+    position: absolute;
+    bottom: 2%;
+    border-radius: 50%;
+    background: white;
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+#micicon {
+    color: white;
+    margin-top: 16%;
+    font-size: 130%;
+}
+
+#video {
+    margin-left: 50%;
+    position: absolute;
+    bottom: 2%;
+    width: 40px;
+    height: 40px;
+    /* border-radius: 50%; */
+    /*border: 2px solid black;*/
+    background: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+#videoicon {
+    color: white;
+    font-size: 120%;
+    margin-left: 7%;
+    margin-top: 10%;
+}
